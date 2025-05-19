@@ -1,6 +1,6 @@
 
 p{
-    color: aquamarine;
+    color: white;
     font-size: 100px;
     font-style: italic;
     display: block;
@@ -10,5 +10,11 @@ p{
 }
 
 body{
-    background-color: rgba(11, 79, 99, 0.801);
+    background-color: #011635
+}
+.sigma a{
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 45px;
+    margin-left: 50px;
 }
