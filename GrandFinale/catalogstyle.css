@@ -1,13 +1,4 @@
 
-p{
-    color: white;
-    font-size: 100px;
-    font-style: italic;
-    display: block;
-    margin-left: 40%;
-    margin-top: 15%;
-    
-}
 header{
     margin-top: 20px;
 }
@@ -21,4 +12,34 @@ body{
     margin-right: 45px;
     margin-left: 50px;
     color: #ffffff;
+}
+.sigma_spaced{
+    float: right;
+}
+.searchbar{
+    border: 10px;
+    border-radius: 50px;
+    height: 70px;
+    width: 80%;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 50px;
+    background-color: #010c1b;
+    
+}
+
+.catalog div{
+    display: block;
+    text-align: center;
+
+}
+.catalog_item{
+    margin-top: 50px;
+    margin-left: 14%;
+    float:left
+}
+.catalog_item p{
+    font-size: 40px;
+    margin-top: -4px;
 }
