@@ -4,7 +4,10 @@ header{
 }
 
 body{
-    background-color: #011635
+    background-color: #031d44
+}
+nav{
+    background-color:#031d44;
 }
 .sigma a{
     text-decoration: none;
@@ -37,9 +40,15 @@ body{
 .catalog_item{
     margin-top: 50px;
     margin-left: 14%;
-    float:left
+    float:left;
+    position: relative
 }
 .catalog_item p{
     font-size: 40px;
     margin-top: -4px;
+}
+.catalog_item img:hover{
+    width: 200px;
+    height: 300px;
+    
 }
