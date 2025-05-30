@@ -1,0 +1,191 @@
+body {
+    background: linear-gradient(0deg, rgb(29, 36, 163) 0%, rgb(93, 92, 92) 100%);
+    font-family: 'Julius Sans One', sans-serif;
+    overflow-x: hidden;
+}
+
+
+.logo{
+    z-index: 5;
+    display: block;
+    position:fixed;
+    margin-left: 100px;
+    top: 25px;
+    transition: 0.3s;
+}
+
+.logo:hover{
+    display: block;
+    position: fixed;
+    top: 28px;
+    transition: 0.3s;
+}
+
+
+.Spotify-registration{
+    position: absolute;
+    display: block;
+    top: 30px;
+    left: 35%;
+    text-align: center;
+    z-index: 4;
+    height: 700px;    
+    border-radius: 25px;
+    width: 450px;
+    z-index: 2;
+}
+
+.logo-white{
+    display: block;
+    position: absolute;
+    left: 750px;
+    top: 50px;
+    z-index: 3;
+}
+
+.Spotify-text{
+    display: block;
+    position: absolute;
+    color: white;
+    left: 700px;
+    top: 110px;
+    z-index: 3;
+}
+
+.username-input {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    top: 200px;
+    left: 610px;
+    z-index: 3;
+    display: block;
+    position: absolute;
+}
+
+.password-input {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    top: 250px;
+    left: 610px;
+    z-index: 3;
+    display: block;
+    position: absolute;
+}
+
+.email-input {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    top: 300px;
+    left: 610px;
+    z-index: 3;
+    display: block;
+    position: absolute;
+}
+
+.username-input:focus {
+    border-color: #000000;
+    outline: none;
+}
+
+.password-input:focus {
+    border-color: #000000;
+    outline: none;
+}
+
+.email-input:focus {
+    border-color: #000000;
+    outline: none;
+}
+
+.submit-button {
+    width: 350px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    font-size: 30px;
+    top: 250px;
+    left: 610px;
+    z-index: 3;
+    display: block;
+    position: absolute;
+    background-color: #0d5cef69;
+    top:500px ;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.submit-button:hover {
+    background-color: #040e7978;
+}
+
+.submit-button:active {
+    background-color: #040e7978;
+}
+
+
+.forgot-password {
+    display: block;
+    position:absolute;
+    text-align: center;
+    font-size: 14px;
+    color: #0d5cef69;
+    top: 600px;
+    left: 730px;
+    text-decoration: none;
+    transition: 0.3s ;
+    z-index: 3;
+}
+
+.forgot-password:hover {
+    color: #ffffff;
+}
+
+.switch-theme-button {
+    z-index: 6;
+    display: block;
+    position:fixed;
+    right: 15px;
+    top: 25px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-right: 3px solid rgb(226, 226, 226);
+    border-bottom: 3px solid rgb(226, 226, 226);
+    transition: 0.5s;
+}
+.switch-theme-button:hover {
+    display: block;
+    position: fixed;
+    right: 13px;
+    top: 28px;
+    background-color: rgb(226, 226, 226);
+    transition: 0.4s;
+}
+
+a {
+    color: #ffffff;
+}
+
+.ps{
+    color: #000000; 
+    text-align: end;
+}

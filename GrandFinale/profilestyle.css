@@ -1,7 +1,8 @@
 body {
     background-color: #011635; /* Темно-синий фон */
     color: white;
-    font-family: sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+    background: linear-gradient(180deg, #0d5cef69 0%, #040e7978 100%);
   }
   
   .container {
@@ -41,14 +42,14 @@ body {
   
   .tab {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #011635;
     border: 1px solid #555;
     margin-right: 10px;
     cursor: pointer;
   }
   
   .tab.active {
-    background-color: #555;
+    background-color: #0d5cef69;
   }
   
   .content {

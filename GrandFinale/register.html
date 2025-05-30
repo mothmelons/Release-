@@ -1,11 +1,32 @@
 <html>
-    <header>
-            <p>Register placeholder</p>
+<head>
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="registerstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header>
+        <div class="back"></div>
     </header>
-    <body>
-        
-    </body>
+    <main>
+        <div class="Spotify-registration"></div>
+        <h2 class="Spotify-text">Увійти в Grech Player</h2>
+        <div class="form-container">
+            <form action="" method="post">
+                <input type="text" id="username" name="username" class="username-input" placeholder="Введіть ім'я користувача" required>
+                <input type="password" id="password" name="password" class="password-input" placeholder="Введіть ваш пароль" required>
+                <input type="email" id="email" name="email" class="email-input" placeholder="Введіть вашу електронну пошту" required>
+                <a href="webplayer.html" class="submit-button">Увійти</a>
+                <p id="message" style="color:white"></p>
+                <a href="#" class="forgot-password">Забули пароль?</a>
+            </form>
+        </div>
+    </main>
     <footer>
-
+        <p class="ps">Да я полностью скатал эту страницу с спотифая, прошу меня понять и простить</p>
     </footer>
-</html>
+    <script src="scripts.js"></script>
+</body>
+</html> 
