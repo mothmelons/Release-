@@ -49,8 +49,8 @@ nav{
     margin-top: -4px;
 }
 .catalog_item img:hover{
-    width: 200px;
-    height: 300px;
+    transform: scale(1.05);
+    border-color: #031d44;
     
 }
 
