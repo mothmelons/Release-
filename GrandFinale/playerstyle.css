@@ -1,3 +1,43 @@
-iframe{
-    padding-top: 100px;
-}
+
+body {
+    background-color: #031d44;
+    font-family: 'Julius Sans One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    color: white;
+    }
+
+.video-container {
+    width: 800px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    }
+
+video {
+    width: 100%;
+    height: 100%;
+    }
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    }
+
+.buttons img {
+    width: 150px;
+    height: 90px;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: transform 0.3s, border-color 0.3s;
+    }
+
+.buttons img:hover {
+    transform: scale(1.05);
+    border-color: #00bfff;
+    }
