@@ -1,6 +1,6 @@
 
 body {
-    background: linear-gradient(0deg, rgb(3, 29, 68) 0%, rgb(177, 177, 177) 100%);
+    background: rgb(3, 29, 68)
     font-family: 'Julius Sans One', sans-serif;
     display: flex;
     flex-direction: column;
